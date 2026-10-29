@@ -20,5 +20,9 @@ The download links in the README always point to the newest GitHub release
    `lisp/*.lsp` file and `lisp-routines.zip` attached, and the CHANGELOG
    section as its text.
 
+   Or, without a tag: on GitHub open *Actions > Release > Run workflow*. The
+   version is taken from the first release heading in `CHANGELOG.md` (e.g.
+   `## 1.1.0`) and the tag is created for you.
+
 A new routine needs a new row (and download link) in the README table; the
 release picks it up automatically from the `lisp/` folder.
