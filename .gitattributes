@@ -1,0 +1,3 @@
+# Windows line endings for the LISP files in downloads and checkouts
+*.lsp text eol=crlf
+*.png binary
